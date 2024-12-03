@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dom.css">
+</head>
+
+<body>
+    <div clas=" divForm">
+        <form id="myForm" onsubmit="ValoresForm(event)" >
+
+            <label for="nome" id="nomelabel">nome:</label>
+            <label for="text" id="nome"> name="nome"</label>
+
+            <label for="episodios" id="episodiosLabel"> episodios:</label>
+            <label for="number" id="episodios"> name="episodios"</label>
+
+            <label for="protagonista" id="protagonistalabel">protagonista:</label>
+            <label for="text" id="protagonista"> name="protagonista"</label>
+
+            <label for="estilo" id="estilolabel">estilo:</label>
+            <label for="text" id="nome"> nome="nome"</label>
+
+            <label for="nome" id="nomelabel">nome:</label>
+            <label for="text" id="estilo"> name="estilo"</label>
+
+            <button type="submit"> Cadastrar Anime</button>
+
+        </form>
+    </div>
+    <div clas="divTable">
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>episodios</th>
+                    <th>protagonista</th>
+                    <th>estilo</th>
+                </tr>
+            </thead>
+
+            <tbody id="animeTableBody"></tbody>
+
+        </table>
+    </div>
+
+</body>
+<script src="./dom.js"></script>
+
+</html>
